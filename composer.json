@@ -1,0 +1,22 @@
+{
+    "name": "oakcms/yii2-datetimepicker",
+    "description": "Yii2 DateTime Widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," datetimepicker"," oakcms"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "scriptua",
+            "email": "script@email.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/eonasdan-bootstrap-datetimepicker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "oakcms\\datetimepicker\\": "src"
+        }
+    }
+}
